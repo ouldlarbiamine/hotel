@@ -1,0 +1,1 @@
+SELECT `datearivee`,`datedepart`  FROM `reservation`  WHERE ((`datearivee` BETWEEN '$date_arive' and '$date_depart')or( `datedepart` BETWEEN '$date_arive' and '$date_depart') )  and (`numhotel`=$nn) and (`numchambre`=$numchambre)
